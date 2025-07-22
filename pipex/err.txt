@@ -1,0 +1,8 @@
+pip.c: In function ‘main’:
+pip.c:5:2: warning: implicit declaration of function ‘pritnf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    5 |  pritnf("test Pipex: %d",5);
+      |  ^~~~~~
+      |  printf
+/usr/bin/ld: /tmp/cc6Sk1ac.o: in function `main':
+pip.c:(.text+0x1a): undefined reference to `pritnf'
+collect2: error: ld returned 1 exit status
